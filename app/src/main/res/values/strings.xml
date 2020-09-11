@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">LEADER BOARD</string>
+    <string name="Dash">LEADERBOARD</string>
+    <string name="tab_text_1">Learning leaders</string>
+    <string name="tab_text_2">Skill IQ Leaders</string>
+    <string name="submit">Submit</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Leader">Leader fragment</string>
+    <string name="Skills">SKILL fragment</string>
+    <string name="leaderimage">leaderimage</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="skillimage">skillimage</string>
+    <string name="nom">nom</string>
+    <string name="points">points</string>
+
+</resources>

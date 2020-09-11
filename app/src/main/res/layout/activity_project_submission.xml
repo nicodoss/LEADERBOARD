@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:backgroundTint="@color/buttonColor"
+    android:elevation="0dp"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp">
+
+        <LinearLayout
+            android:id="@+id/idlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:foregroundGravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="310dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="24dp"
+                android:text="Project submission"
+                android:textAlignment="center"
+                android:textColor="#FFC107"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="top"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/idfirstname"
+                    android:layout_width="161dp"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="8dp"
+                    android:autoText="false"
+                    android:background="@drawable/shapeedit"
+                    android:backgroundTint="@color/blank"
+                    android:ems="10"
+                    android:hint="   First Name"
+                    android:inputType="textPersonName"
+                    android:textColorHint="#474646" />
+
+                <EditText
+                    android:id="@+id/idlastname"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="24dp"
+                    android:background="@drawable/shapeedit"
+                    android:backgroundTint="@color/blank"
+                    android:ems="10"
+                    android:hint="  Last Name"
+                    android:inputType="textPersonName"
+                    android:textColorHint="#4C4C4C" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/idemailadress"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="32dp"
+                android:background="@drawable/shapeedit"
+                android:backgroundTint="@color/blank"
+                android:ems="10"
+                android:hint="  Email Address"
+                android:inputType="textPersonName"
+                android:textColorHint="#716F6F" />
+
+            <EditText
+                android:id="@+id/idurlgit"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginEnd="8dp"
+                android:autoText="false"
+                android:background="@drawable/shapeedit"
+                android:backgroundTint="@color/blank"
+                android:ems="10"
+                android:hint="  Project on Github Link"
+                android:inputType="textPersonName"
+                android:textColorHint="#656363" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/idsubmit"
+                    android:layout_width="207dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/shadebutton"
+                    android:foregroundTint="#3E1F1F"
+                    android:gravity="bottom|center|center_horizontal|center_vertical"
+                    android:text="@string/submit"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    tools:text="@string/submit" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
